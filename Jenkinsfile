@@ -1,7 +1,7 @@
 pipeline {
     agent any  // Runs pipeline on any available agent
 
-    stges {
+    stages {
         stage('Build') {
             steps {
                 script {
